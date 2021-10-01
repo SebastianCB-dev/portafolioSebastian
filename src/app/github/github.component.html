@@ -1,0 +1,41 @@
+<div class="title color-layout">
+    <h3>GitHub</h3> <i class="pi pi-github"></i>
+</div>
+
+<div class="message"
+     *ngIf="!profile">
+    <p-messages severity="warn">
+        <ng-template pTemplate>
+            <div class="p-ml-2">Trayendo la información de GitHub, por favor espere...</div>
+        </ng-template>
+    </p-messages>
+</div>
+<div class="container">
+    <div class="info animate__animated animate__backInLeft animate__delay-3s"
+          (click)="redirectToGithub()">
+        <img [src]="profile?.avatar_url">
+        <h2>{{ profile?.name }}</h2>
+        <h3>{{ profile?.login }}</h3>
+    </div>
+
+    <div class="repos animate__animated animate__backInRight animate__delay-3s">
+        <div *ngFor="let repositorio of repositorios; let i = index"
+             class="repo">
+            <p-fieldset [legend]="repositorio.name" [toggleable]="true">
+                <p>Nombre:</p> 
+                <pre>{{ repositorio.full_name }}</pre>
+                <h4>Lenguajes: </h4>
+                <ul>
+                    <li *ngFor="let lenguaje of lenguajes[i] | keyvalue">{{ lenguaje.key }}</li>                    
+                </ul>
+                
+                <a [href]="repositorio.html_url" target="_blank" pButton
+                   class="p-button-outlined">
+                    Ver repositorio <i class="pi pi-link"></i>
+                </a>
+            </p-fieldset>
+        </div>
+    </div>
+</div>
+
+

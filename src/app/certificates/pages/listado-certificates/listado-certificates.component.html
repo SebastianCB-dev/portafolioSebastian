@@ -1,0 +1,18 @@
+<div class="certificates color-layout animate__animated animate__fadeIn" >
+    <div class="title ">
+        <h3>Mis certificados</h3>
+    </div>
+
+    <div class="certificates-lobby">
+        <div *ngFor="let item of menuItem"
+             class="certificate">
+            
+            <a [routerLink]="item.router">
+                <img [src]="item.srcImage | imagenPipe">
+            </a>
+            <p>{{ item.title }}</p>
+            <i *ngIf="item.iconClass"
+               [class]="item.iconClass"></i>
+        </div>
+    </div>
+</div>

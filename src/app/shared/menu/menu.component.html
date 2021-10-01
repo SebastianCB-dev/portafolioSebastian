@@ -1,0 +1,70 @@
+<div class="p-grid p-jc-center">
+  <p-tabMenu [model]="items" [activeItem]="items[position]">
+
+  </p-tabMenu>
+</div>
+
+<p-sidebar [(visible)]="display" class="sidebar" label="Hola">
+  <div class="content">
+    <h2>Menú</h2>
+    <div class="items">
+      <div class="item"
+           routerLink=''
+           routerLinkActive="active"
+           [routerLinkActiveOptions]="{ exact: true }">
+        <i class="pi pi-home"></i>
+        <a>
+          Inicio
+        </a>
+      </div>
+
+      <div class="item"
+      routerLink='certificates'
+      routerLinkActive="active">
+        <i class="pi pi-user"></i>
+        <a>
+          Certificados
+        </a>
+      </div>
+
+      <div class="item"
+      routerLink='tecnologias'
+      routerLinkActive="active">
+        <i class="pi pi-desktop"></i>
+        <a>
+          Tecnologías
+        </a>
+      </div>
+
+      <div class="item"
+      routerLink='github'
+      routerLinkActive="active">
+        <i class="pi pi-github"></i>
+        <a>
+          Git-Hub
+        </a>
+      </div>
+
+      <div class="item"
+      routerLink='proyectos'
+      routerLinkActive="active">
+        <i class="pi pi-folder"></i>
+        <a>
+          Proyectos
+        </a>
+      </div>
+
+      <div class="item"
+      routerLink='contacto'
+      routerLinkActive="active">
+        <i class="pi pi-mobile"></i>
+        <a>
+          Contacto
+        </a>
+      </div>
+
+    </div>
+  </div>
+</p-sidebar>
+
+<p-button type="text" (click)="display = true" icon="pi pi-bars" class="button-floating"></p-button>

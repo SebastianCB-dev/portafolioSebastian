@@ -1,0 +1,55 @@
+p-tabMenu {
+    position: fixed;
+    z-index: 1000;
+}
+.button-floating {
+    display: none; 
+    position:fixed;
+    top: 15px;
+    left: 15px;
+}
+
+.sidebar .content {
+    width: 90%; 
+    margin: 0px auto
+}
+
+.sidebar .content h2 {
+    font-size: 35px;
+    margin-top: -13px;
+}
+.sidebar .content .items .item {
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 22px;
+    border: 1px solid transparent;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.active {
+    border: 1px solid #FFD54F !important;
+    box-shadow: 0px 0px 10px #FFD54F;
+    color: #FFD54F;
+}
+.sidebar .content .items .item:hover {
+    border: 1px solid #fff;   
+}
+
+.sidebar .content .items .item i {
+    margin-right: 5px;
+}
+
+/* Responsive */
+
+@media(max-width: 800px) {
+    
+    .button-floating {
+        display: block;
+        z-index: 99;
+    }    
+    .p-grid {
+        display: none;
+    }
+    
+}

@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Kumar-One';
+    src: url('../../../assets/fonts/KumarOne-Regular.ttf');
+}
+
+iframe {
+    display: block;
+    width: 450px;
+    height: 450px;
+    border: none;
+    margin: 0px auto;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    border-radius: 12px;
+}
+
+.title {
+    width: 480px;
+    margin: 0px auto;
+    margin-top: 110px;
+}
+.title h3 {
+    width: 480px;
+    font-size: 40px;
+    color: #FC5A74;
+    border-bottom: 2px solid #FC5A74;
+    padding-bottom: 5px;
+    text-align: center;
+    transition: all 300ms;
+    font-family: 'Kumar-One';
+}
+.title h3:hover {
+    color: #fb2d4f;
+    border-bottom: 2px solid #fb2d4f;
+}

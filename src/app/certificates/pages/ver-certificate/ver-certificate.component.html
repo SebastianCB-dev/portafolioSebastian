@@ -1,0 +1,24 @@
+<div class="title color-layout">
+    <h3>Información</h3>
+</div>
+<div class="certificates">
+    <div class="imagen">
+        <img [src]="certificadoActivo.id_web | imagenPipe">
+    </div>
+
+    <div class="information color-layout">
+        <h2>Nombre: <pre>{{ certificadoActivo.nombre }}</pre></h2>
+        <h2>ID: <pre>{{ certificadoActivo.id }}</pre></h2>
+        <h2>Tutor: <pre>{{ certificadoActivo.tutor }}</pre></h2>
+        <h2>Academia: <pre>{{ certificadoActivo.academia }}</pre></h2>
+        <h2>Año: <pre>{{ certificadoActivo.year }}</pre></h2>
+        <button pButton type="button"
+                label="Volver"
+                class="p-button-outlined"
+                icon="pi pi-replay"
+                iconPos="right"
+                routerLink="/certificates">
+        </button>
+    </div>
+
+</div>

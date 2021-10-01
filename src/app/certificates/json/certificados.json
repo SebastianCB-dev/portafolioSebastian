@@ -1,0 +1,61 @@
+[
+ {
+     "nombre": "Introducción al Desarrollo Web I (40 h)",
+     "id": "EVF 22S LZ6",
+     "year": "09/05/2020",
+     "tutor": "Sergio Luján Mora",
+     "academia": "Google Activate",
+     "id_web": "HTML"
+ },
+ {
+    "nombre": "Master en CSS: Responsive, SASS, Flexbox, Bootstrap 4",
+    "id": "UC-3520e996-b766-4fa3-8ba894dff9bc",
+    "year": "07/01/2021",
+    "tutor": "Víctor Robles",
+    "academia": "Udemy",
+    "id_web": "CSS"
+ },
+ {
+    "nombre": "Universidad JavaScript 2021 - De cero a Master en JavaScript",
+    "id": "UC-9ca8490e-739e-4a17-838c-04b28bdc25c2",
+    "year": "16/03/2021",
+    "tutor": "Ubaldo Acosta",
+    "academia": "Udemy",
+    "id_web": "JavaScript"
+ },
+ {
+   "nombre": "ReactiveX -RxJs: de cero hasta los detales",
+   "id": "UC-7ab87159-1898-41e4-84d5-8aa81042a9e8",
+   "year": "21/08/2021",
+   "tutor": "Fernando Herrera",
+   "academia": "Udemy",
+   "id_web": "RxJs"
+ },
+ {
+   "nombre": "Angular: De cero a experto - (Edición 2021)",
+   "id": "UC-fb1f21ec-876c-4077-872e-50b3321da991",
+   "year": "21/08/2021",
+   "tutor": "Fernando Herrera",
+   "academia": "Udemy",
+   "id_web": "Angular"
+ },
+ {
+    "nombre": "Competencias digitales para profesionales (40h)",
+    "id": "CBX JRM G62",
+    "year": "13/05/2021",
+    "tutor": "Álvaro Retortillo Osuna",
+    "academia": "Google Activate",
+    "id_web": "CompetenciasDigitales"
+ },
+ {
+   "nombre": "NDG Linux Unhatched",
+   "id": "N/A",
+   "year": "15/09/2021",
+   "tutor": "The NDG Team",
+   "academia": "Netacad",
+   "id_web": "LinuxI"
+}
+
+
+
+]

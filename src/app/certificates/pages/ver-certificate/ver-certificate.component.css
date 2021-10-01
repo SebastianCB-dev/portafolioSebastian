@@ -1,0 +1,52 @@
+
+.title {
+    width: 280px;
+    margin: 0px auto;
+    margin-top: 110px;
+}
+.title h3 {
+    width: 280px;
+    font-size: 45px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+    text-align: center;
+    transition: all 300ms;
+}
+.title h3:hover {
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+}
+.certificates {
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.certificates .imagen img{
+    width: 650px;
+    border: solid 7px #fff;
+    border-radius: 12px;
+    border-image: url('../../../../assets/imgs/madera.jpg') 5 5 ;
+    margin-right: 50px;
+}
+
+.certificates .information {
+    padding-top: 80px;
+    width: 700px;
+}
+.certificates .information pre {
+    display: inline;
+    color: #ccc;
+}
+
+.certificates .information pre:hover {
+    color: var(--primary-color);
+}
+
+.certificates .information button {
+    display: flex;
+    margin-left: auto;
+}

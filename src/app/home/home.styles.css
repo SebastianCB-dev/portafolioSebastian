@@ -1,0 +1,362 @@
+/* Seccion Main */
+.main {
+    width: 100%;
+    margin-top: 180px;
+    margin-bottom: 170px;
+    height: 580px;
+    overflow: hidden;
+}
+.main img{
+    display: block;
+    width: 130px;
+    margin: 0px auto;
+    border: 3px solid #ccc;
+    border-radius: 100%;
+    transition: all 300ms;
+}
+.main img:hover {
+    border: 3px solid var(--primary-color);
+    transform: scale(1.01,1.01);
+}
+
+.main h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.main h2 {
+    text-align: center;
+    font-size: 75px;
+}
+
+.main .buttons {
+    width: 500px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main .buttons button {    
+    transition: all 300ms;
+    transform: scale(1.15, 1.15);
+}
+
+.main .buttons button:hover {
+    transform: scale(1.3, 1.3);
+    
+}
+
+/* Fin Seccion Main */
+
+/* Seccion About Me */
+
+.about-me {
+    padding-top: 80px;
+    height: 900px;
+}
+.about-me .title {
+    width: 260px;
+    margin: 0px auto;
+    display: flex;
+}
+.about-me h3{
+    width: 260px;
+    margin: 0px auto;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #ccc;
+    text-align: center;
+    font-size: 45px;
+    transition: all 300ms;  
+}
+
+.about-me h3:hover {
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+}
+
+
+.about-me .cards {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+.about-me .cards .card {
+    width: 530px;
+    border: 2px solid #ccc;
+    height: 540px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: all 400ms;
+}
+
+.about-me .cards .card:hover {
+    border: 2px solid var(--primary-color);
+    box-shadow: 0px 0px 25px #000;
+    background-color: rgba(0, 0, 0, 0.457);
+}
+
+.about-me .cards .information img {
+    display: block;
+    width: 160px;
+    margin: 0px auto;
+    margin-top: 22px;
+}
+.about-me .cards .information h5 {
+    text-align: center;
+    font-size: 28px;
+    transition: all 400ms;
+}
+.about-me .cards .information p {
+    width: 80%;
+    margin: 0px auto;
+    font-size: 18px;
+    text-align: center;
+}
+.about-me .cards .information span {
+    transition: all 400ms;
+}
+.about-me .cards .information .avatar-2 {
+    display: none;
+}
+.about-me .cards .information:hover h5 {
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+.about-me .cards .information:hover span {
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
+.about-me .cards .information:hover .avatar-1 {
+    display: none;
+}
+.about-me .cards .information:hover .avatar-2 {
+    display: block;
+}
+
+.about-me .cards .description img {
+    display: block;
+    width: 160px;
+    margin: 0px auto;
+    margin-top: 22px;
+}
+
+.about-me .cards .description h5 {
+    text-align: center;
+    font-size: 28px;
+    transition: all 400ms;
+}
+
+.about-me .cards .description:hover h5 {
+    color: var(--primary-color);
+}
+
+.about-me .cards .description .avatar-2 {
+    display: none;
+}
+
+.about-me .cards .description:hover .avatar-1 {
+    display: none;
+}
+.about-me .cards .description:hover .avatar-2 {
+    display: block;
+}
+
+.about-me .cards .description ul li {
+    width: 100%;
+    height: 40px;
+    border-top: 1px solid #ccc;
+    text-align: center;
+    line-height: 35px;
+    transition: all 300ms;
+    font-size: 18px;
+}
+.about-me .cards .description ul li:hover {
+    color: var(--primary-color);
+    
+}
+.about-me .cards .description ul li:last-child {
+    border-bottom: 1px solid #ccc;
+}
+.about-me .cards .description ul {
+    width: 100%;
+    list-style: none;
+    padding-left: 0px;
+    margin-top: -15px;
+}
+/* Fin seccion About Me */
+
+/* Inicio work */
+.work .title {
+    width: 600px;
+    margin: 0px auto;
+    display: flex;
+    padding-top: 110px;
+}
+.work h3 {
+    width: 600px;
+    margin: 0px auto;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #ccc;
+    text-align: center;
+    font-size: 45px;
+    transition: all 300ms;  
+}
+.work h3:hover {
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+}
+
+.work .cards {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 120px;
+}
+.work .cards .card {
+    width: 450px;
+    height: 480px;
+    border: 2px solid #ccc;
+    border-radius: 18px;
+    margin-bottom: 110px;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: all 300ms;
+}
+
+.work .cards .card img {
+    display: block;
+    width: 130px;
+    margin:0px auto;
+    margin-top: 40px;
+}
+
+.work .cards .card h5 {
+    text-align: center;
+    font-size: 30px;
+    transition: all 300ms;
+}
+
+.work .cards .card p {
+    width: 85%;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 19px;
+    margin-top: -10px;
+}
+
+.work .cards .cardOne:hover {
+    border: 2px solid var(--primary-color);
+}
+
+.work .cards .cardOne:hover h5 {
+    color: var(--primary-color);
+}
+
+.work .cards .cardTwo:hover {
+    border: 2px solid #076CF2;
+}
+
+.work .cards .cardTwo:hover h5 {
+    color: #076CF2;
+}
+
+.work .cards .cardThree:hover {
+    border: 2px solid #DE2A0D;
+}
+
+.work .cards .cardThree:hover h5 {
+    color: #DE2A0D;
+}
+/* Fin Work */
+
+/* Responsives */
+
+
+@media(max-width:1300px) {
+    .main {
+        margin-top: 140px;
+        height: 560px;
+    }
+}
+
+@media(max-width: 1155px) {
+    .about-me {
+        height: auto;
+    }
+
+    .about-me .cards .card {
+        margin-bottom: 45px;
+    }
+    .about-me .cards .card:last-child {
+        margin-bottom: 120px;
+    }
+    .about-me .cards .card:first-child {
+        margin-top: -20px;
+    }
+}
+
+@media(max-width: 800px) {
+    .main h2 {
+        font-size: 60px;
+    }
+    .about-me h3 {
+        width: 200px;
+        font-size: 32px;
+    }
+    .about-me .title {
+        width: 200px;
+    }
+    .work h3 {
+        width: 420px;
+        font-size: 32px;
+    }
+    .work .title {
+        width: 420px;
+    }
+}
+
+@media( max-width: 630px ) {
+
+    .main h2 {
+        font-size: 50px;
+        margin-top: 70px;
+    }
+
+    .about-me .cards .card {
+        width: 80%;
+        margin: 0px auto;
+        margin-bottom: 30px;
+    }
+
+    .about-me .cards .card h5 {
+        width: 90%;
+        margin: 0px auto;
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+
+    .about-me .cards .card ul {
+        margin-top: 20px;
+    }
+
+    .about-me .cards .card:first-child {
+        margin-bottom: 80px;
+    }
+}
+
+@media(max-width: 555px) {
+    .about-me .cards .card {
+        height: auto;
+    }
+
+    .about-me .cards .card p {
+        margin-bottom: 50px;
+    }
+
+    .about-me .cards .card ul {
+        margin-bottom: 30px;
+    }
+}

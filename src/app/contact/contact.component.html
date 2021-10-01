@@ -1,0 +1,36 @@
+<div class="title color-layout">
+  <h3>Contacto</h3> <i class="pi pi-mobile"></i>
+</div>
+
+<div class="message animate__animated animate__fadeIn" *ngIf="show">
+    <p-messages severity="info">
+      <ng-template pTemplate>
+        <div class="p-ml-2">{{ texto }}</div>
+      </ng-template>
+    </p-messages>
+  </div>
+
+<div class="contacts color-layout animate__animated animate__fadeIn">
+
+  <div class="contact linkedin" (click)="redirectToLinkedin()">
+    <img src="../../assets/imgs/linkedin.png">
+  </div>
+
+  <div class="contact gmail" (click)="copyGmail()">
+    <img src="../../assets/imgs/gmail.png">
+  </div>
+
+  <div class="contact llamada" (click)="copyTel()">
+    <img src="../../assets/imgs/llamada-telefonica.png">
+  </div>
+
+  <div class="contact twitter" (click)="redirectToTwitter()">
+    <img src="../../assets/imgs/twitter.png">
+  </div>
+
+  <div class="contact github" (click)="redirectToGitHub()">
+    <img src="../../assets/imgs/gitHub.png">
+  </div>
+
+
+</div>

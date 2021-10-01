@@ -1,0 +1,62 @@
+.certificates {
+    margin-top: 110px;
+}
+.certificates .title {
+    width: 380px;
+    margin: 0px auto;
+}
+.certificates .title h3 {
+    width: 380px;
+    font-size: 47px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+    text-align: center;
+    transition: all 300ms;
+}
+.certificates .title h3:hover {
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+}
+
+.certificates-lobby {
+    width: 85%;
+    display: flex;
+    margin: 0px auto;
+    margin-top: 75px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.certificates-lobby .certificate {
+    width: 400px;
+    height: 380px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.certificates-lobby .certificate img { 
+    width: 100%;
+    transition: all 300ms;
+    border: solid 7px #fff;
+    border-radius: 12px;
+    border-image: url('../../../../assets/imgs/madera.jpg') 5 5 ;
+}
+
+.certificates-lobby .certificate img:hover {
+    opacity: 0.6;
+}
+
+.certificates-lobby .certificate p {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: var(--font-family);
+}
+
+.certificates-lobby .certificate i{
+    display: block;
+    text-align: center;
+    margin-top: -12px;
+}

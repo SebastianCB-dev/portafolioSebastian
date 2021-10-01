@@ -1,0 +1,240 @@
+.techs .title {
+    width: 560px;
+    margin: 0px auto;
+    margin-top: 110px;
+}
+.techs .title h3 {
+    width: 560px;
+    font-size: 47px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+    text-align: center;
+    transition: all 300ms;
+}
+
+.techs .title h3:hover {
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+}
+
+.techs .title-main,.techs .title-other {
+    width: 300px;
+    margin: 0px auto;
+    margin-top: 40px;
+}
+.techs .title-main h3, .techs .title-other h3 {
+    width: 300px;
+    font-size: 34px;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 5px;
+    text-align: center;
+    transition: all 300ms;
+}
+
+.techs .title-main h3:hover, .techs .title-other h3:hover {
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+}
+
+
+.techs .main-techs,.techs .mean-techs {
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.techs .mean-techs {
+    width: 1500px;
+    justify-content: space-evenly;
+}
+.techs .main-techs .tech,.techs .mean-techs .tech {
+    font-family: var(--font-family);
+    font-weight: bold;
+    width: 220px;
+    height: 220px;
+    border: 2px solid #fff;
+    overflow: hidden;  
+    border-radius: 12px;
+    transition: all 300ms; 
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-bottom: 75px;
+}
+
+.techs .main-techs .tech img ,.techs .mean-techs .tech img{
+    transition: all 300ms;
+}
+
+.techs .main-techs .tech .html{
+    display: block;
+    width: 70%;
+    height: 70%;
+    margin: 0px auto;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.techs .main-techs .tech .css{
+    display: block;
+    width: 90%;
+    height: 90%;
+    margin: 0px auto;
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+
+.techs .main-techs .tech .sass{
+    display: block;
+    width: 68%;
+    height: 52%;
+    margin: 0px auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border-radius: 12px;
+}
+
+.techs .main-techs .tech .js, .techs .main-techs .tech .ts,
+.techs .mean-techs .tech .angular,.techs .mean-techs .tech .mongo,
+.techs .main-techs .tech .c,.techs .mean-techs .tech .express,
+.techs .main-techs .tech .java,.techs .main-techs .tech .rxjs, 
+.techs .main-techs .tech .linux, .techs .mean-techs .tech .node,
+.techs .main-techs .tech .git {
+    display: block;
+    width: 65%;
+    height: 65%;
+    margin: 0px auto;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    border-radius: 12px;
+}
+
+
+.techs .main-techs .tech:hover {
+    background-color: #000;
+
+}
+.techs .main-techs .tech:hover img, .techs .mean-techs .tech:hover img {
+    opacity: 0.2;
+    transform: scale(1.14,1.14);
+}
+
+.techs .main-techs .tech p, .techs .mean-techs .tech p{
+    text-align: center;
+    font-size: 30px;
+    transition: all 300ms;
+    position: relative;
+    z-index: 2;
+}
+.techs .main-techs .html-tech p {
+    color: #e44d26;
+}
+.techs .main-techs .css-tech p {
+    color: #205fa7;
+}
+.techs .main-techs .js-tech p {
+    color: #f0da50;
+}
+.techs .main-techs .sass-tech p {
+    color: #cd6799;
+}
+.techs .main-techs .ts-tech p {
+    color: #3178c6;
+}
+.techs .mean-techs .angular-tech p {
+    color:rgb(255, 0, 0);
+}
+.techs .mean-techs .mongo-tech p {
+    color: #429A46;
+}
+.techs .mean-techs .express-tech p {
+    color: #EF9800;
+}
+.techs .mean-techs .node-tech p {
+    color:#8CC84B;
+}
+.techs .main-techs .c-tech p {
+    color: #007fcc;
+}
+.techs .main-techs .java-tech p {
+    color: #f2593a;
+}
+.techs .main-techs .linux-tech p {
+    color: #E69629;
+}
+.techs .main-techs .rxjs-tech p {
+    color: #df1d85;
+}
+.techs .main-techs .git-tech p {
+    color: #DE4C36;
+}
+
+
+.techs .main-techs .html-tech:hover p {
+    margin-top: -170px;
+}
+.techs .main-techs .css-tech:hover p {
+    margin-top: -180px;
+}
+.techs .main-techs .js-tech:hover p,
+.techs .main-techs .ts-tech:hover p,
+.techs .mean-techs .angular-tech:hover p,
+.techs .mean-techs .mongo-tech:hover p,
+.techs .mean-techs .node-tech:hover p,
+.techs .mean-techs .express-tech:hover p,
+.techs .main-techs .c-tech:hover p,
+.techs .main-techs .java-tech:hover p,
+.techs .main-techs .rxjs-tech:hover p,
+.techs .main-techs .linux-tech:hover p,
+.techs .main-techs .git-tech:hover p
+{
+    margin-top: -155px;
+}
+.techs .main-techs .sass-tech:hover p {
+    margin-top: -140px;
+}
+
+.techs .main-techs .html-tech:hover {
+    border: 2px solid #e44d26;
+}
+.techs .main-techs .css-tech:hover {
+    border: 2px solid #1c579b;
+}
+.techs .main-techs .js-tech:hover {
+    border: 2px solid #f0da50;
+}
+.techs .main-techs .sass-tech:hover {
+    border: 2px solid #cd6799;
+}
+.techs .main-techs .ts-tech:hover {
+    border: 2px solid #3178c6;
+}
+.techs .mean-techs .angular-tech:hover {
+    border: 2px solid #c3002f;
+}
+.techs .mean-techs .mongo-tech:hover {
+    border: 2px solid #429A46;
+}
+.techs .mean-techs .express-tech:hover {
+    border: 2px solid #EF9800;
+}
+.techs .mean-techs .node-tech:hover {
+    border: 2px solid #8CC84B;
+}
+.techs .main-techs .c-tech:hover {
+    border: 2px solid #007fcc;
+}
+.techs .main-techs .java-tech:hover {
+    border: 2px solid #f2593a;
+}
+.techs .main-techs .rxjs-tech:hover {
+    border: 2px solid #df1d85;
+}
+.techs .main-techs .linux-tech:hover {
+    border: 2px solid #E69629;
+}
+.techs .main-techs .git-tech:hover {
+    border: 2px solid #DE4C36;
+}
+
