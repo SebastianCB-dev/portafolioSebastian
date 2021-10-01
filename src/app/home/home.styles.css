@@ -326,7 +326,7 @@
     }
 
     .about-me .cards .card {
-        width: 80%;
+        width: 90%;
         margin: 0px auto;
         margin-bottom: 30px;
     }
@@ -359,4 +359,91 @@
     .about-me .cards .card ul {
         margin-bottom: 30px;
     }
+}
+
+@media(max-width: 530px) {
+    .main .buttons{  
+        flex-wrap: wrap;
+        width: 90%;
+        margin: 0px auto;      
+    }
+    .main .buttons .p-button {
+        margin-left: 30px ;
+        margin-right: 30px;
+    }
+    .main {
+        height: auto;
+        padding-bottom: 40px;
+    }
+}
+
+@media(max-width: 500px) {
+    .main {
+        padding-bottom: 100px;
+    }
+    .main h1 {
+        font-size: 25px;
+    }
+    .main h2 {
+        font-size: 40px;
+    }
+    .work .title {
+        width: 90%;
+        margin: 0px auto;
+    }
+    .work .title h3 {
+        width: 90%;
+        margin: 0px auto;
+        font-size: 25px;
+    }
+    .work .cards .card {
+        width: 90%;
+        margin: 0px auto;
+        height: auto;
+        margin-bottom: 60px;
+    }
+    .work .cards .card:first-child {
+        margin-top: -40px;
+    }
+    .work .cards .card p{
+        margin-bottom: 40px;        
+    }
+    .work .cards .card h5{
+        margin-bottom: 30px;
+    }
+    .work .cards .card img{
+        width: 100px;
+    }
+}
+
+@media(max-width: 462px) {
+    .main h2 {
+        margin-bottom: 70px;
+    }
+    .main .buttons .p-button {
+        margin-bottom: 30px;
+    }
+    .main {
+        padding-bottom: 50px;
+    }
+}
+
+@media(max-width: 413px){
+    .work .title {
+       width: max-content;
+    }
+    .work .title h3 {
+        width: max-content;
+    }
+}
+
+@media(max-width: 393px) {
+    .work .title {
+        width: 90%;
+        margin: 0px auto;
+     }
+     .work .title h3 {
+        width: 90%;
+        margin: 0px auto;
+     }
 }

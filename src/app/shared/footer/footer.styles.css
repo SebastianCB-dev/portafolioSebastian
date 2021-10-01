@@ -29,3 +29,19 @@
 }
 
 /* Responsive */
+
+@media(max-width: 462px) {
+    .footer .boxes {
+        display: block;
+    }
+    .footer .boxes .box {
+        width: 300px;
+        margin: 0px auto;        
+    }
+    .footer .boxes .boxTwo {
+        margin-bottom: 50px;
+    }
+    .footer {
+        height: auto;
+    }
+}
