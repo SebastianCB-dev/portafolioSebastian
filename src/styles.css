@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+html, body {
+    background-color: var(--surface-b);
+    font-family: var(--font-family);    
+}
+body::-webkit-scrollbar {
+    width: 7px;
+    background-color: transparent;
+    border-radius: 22px;
+}
+body::-webkit-scrollbar-thumb {
+    background-color: var(--primary-color);
+    border-radius: 22px;
+}
+.color-layout {
+    color: var(--text-color);
+}
