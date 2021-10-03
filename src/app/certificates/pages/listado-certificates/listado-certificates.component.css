@@ -1,5 +1,6 @@
 .certificates {
     margin-top: 110px;
+    transition: all 300ms;
 }
 .certificates .title {
     width: 380px;
@@ -59,4 +60,37 @@
     display: block;
     text-align: center;
     margin-top: -12px;
+}
+
+/* Responsive */
+
+@media(max-width: 800px) {
+    .certificates {
+        margin-top: 0px;
+    }
+}
+
+@media( max-width: 546px ){
+    .certificates .title {
+        width: 230px;
+        margin: 0px auto;
+    }
+    .certificates .title h3 {
+        width: 230px;
+        font-size: 30px;
+    }
+    .certificates-lobby {
+        width: 90%;
+        margin: 0px auto;
+        margin-top: 50px;
+    }
+    .certificates-lobby .certificate {
+        height: auto;
+    }
+}   
+
+@media(max-width:378px) {
+    .certificates {
+        margin-top: 100px;
+    }
 }
