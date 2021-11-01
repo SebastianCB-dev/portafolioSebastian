@@ -55,12 +55,12 @@
     height: 900px;
 }
 .about-me .title {
-    width: 260px;
+    width: max-content;
     margin: 0px auto;
     display: flex;
 }
 .about-me h3{
-    width: 260px;
+    width: max-content;
     margin: 0px auto;
     padding-bottom: 8px;
     border-bottom: 2px solid #ccc;
@@ -190,13 +190,13 @@
 
 /* Inicio work */
 .work .title {
-    width: 600px;
+    width: max-content;
     margin: 0px auto;
     display: flex;
     padding-top: 110px;
 }
 .work h3 {
-    width: 600px;
+    width: max-content;
     margin: 0px auto;
     padding-bottom: 8px;
     border-bottom: 2px solid #ccc;
@@ -310,11 +310,11 @@
         width: 200px;
     }
     .work h3 {
-        width: 420px;
+        width: max-content;
         font-size: 32px;
     }
     .work .title {
-        width: 420px;
+        width: max-content;
     }
 }
 

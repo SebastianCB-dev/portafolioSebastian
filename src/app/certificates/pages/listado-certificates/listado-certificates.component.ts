@@ -38,6 +38,11 @@ export class ListadoCertificatesComponent implements OnInit {
       title: 'Angular',
     },
     {
+      router: 'GitHub',
+      srcImage: 'GitHub',
+      title: 'GitHub',
+    },
+    {
       router: 'LinuxI',
       srcImage: 'LinuxI',
       title: 'Linux',

@@ -48,6 +48,14 @@
     "id_web": "CompetenciasDigitales"
  },
  {
+   "nombre": "GIT+GitHub: Todo un sistema de control de versiones de cero",
+   "id": "UC-bc43787d-813f-4f8f-a3c6-d754c983146c",
+   "year": "13/10/2021",
+   "tutor": "Fernando Herrera",
+   "academia": "Udemy",
+   "id_web": "GitHub"
+ },
+ {
    "nombre": "NDG Linux Unhatched",
    "id": "N/A",
    "year": "15/09/2021",
