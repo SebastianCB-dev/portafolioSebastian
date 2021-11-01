@@ -28,6 +28,11 @@ export class ListadoCertificatesComponent implements OnInit {
       title: 'JavaScript',
     },
     {
+      router: 'TypeScript',
+      srcImage: 'TypeScript',
+      title: 'TypeScript',
+    },
+    {
       router: 'RxJs',
       srcImage: 'RxJs',
       title: 'RxJs',
