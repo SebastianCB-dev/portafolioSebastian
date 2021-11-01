@@ -1,52 +1,165 @@
-
 .title {
-    width: 280px;
-    margin: 0px auto;
-    margin-top: 110px;
+  width: 280px;
+  margin: 0px auto;
+  margin-top: 110px;
 }
+
 .title h3 {
-    width: 280px;
-    font-size: 45px;
-    border-bottom: 2px solid #ccc;
-    padding-bottom: 5px;
-    text-align: center;
-    transition: all 300ms;
+  width: 280px;
+  font-size: 45px;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+  text-align: center;
+  transition: all 300ms;
 }
+
 .title h3:hover {
-    color: var(--primary-color);
-    border-bottom: 2px solid var(--primary-color);
+  color: var(--primary-color);
+  border-bottom: 2px solid var(--primary-color);
 }
+
 .certificates {
-    width: 90%;
-    margin: 0px auto;
-    margin-top: 70px;
-    margin-bottom: 70px;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+  width: 90%;
+  margin: 0px auto;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
-.certificates .imagen img{
-    width: 650px;
-    border: solid 7px #fff;
-    border-radius: 12px;
-    border-image: url('../../../../assets/imgs/madera.jpg') 5 5 ;
-    margin-right: 50px;
+
+.certificates .imagen img {
+  width: 650px;
+  border: solid 7px #fff;
+  border-radius: 12px;
+  border-image: url('../../../../assets/imgs/madera.jpg') 5 5;
+  margin-right: 50px;
 }
 
 .certificates .information {
-    padding-top: 80px;
-    width: 700px;
+  padding-top: 80px;
+  width: 700px;
 }
+
 .certificates .information pre {
-    display: inline;
-    color: #ccc;
+  display: inline;
+  color: #ccc;
 }
 
 .certificates .information pre:hover {
-    color: var(--primary-color);
+  color: var(--primary-color);
 }
 
 .certificates .information button {
-    display: flex;
-    margin-left: auto;
+  display: flex;
+  margin-left: auto;
+}
+
+/* Responsive */
+
+@media(max-width: 1571px) {
+
+  .certificates .information pre {
+    display: block;
+    color: #ccc;
+
+  }
+
+  .certificates .information h2 {
+    border-bottom: 1px solid #ccc;
+  }
+
+  .certificates .information pre:hover {
+    color: #ccc;
+  }
+
+  .certificates .information {
+    padding-top: 3%;
+    width: 800px;
+    text-align: center;
+    color: var(--primary-color);
+  }
+
+  .certificates {
+    display: block;
+  }
+
+  .certificates .imagen{
+    width: 650px;
+    margin: 0px auto;
+  }
+
+  .certificates .information {
+      width: 800px;
+      margin: 0px auto;
+  }
+
+
+  .certificates .imagen img {
+    margin-right: 0px;
+  }
+}
+
+@media(max-width: 880px){
+    .certificates .information pre {
+       width: 80%;
+       height: auto;
+       white-space: break-spaces;
+       margin: 0px auto;
+       margin-top: 15px;
+       margin-bottom: 15px;
+    }
+      .certificates .information {
+        width: 90%;
+        margin: 0px auto;
+    }
+}
+
+@media(max-width: 800px) {
+    .title {
+        margin-top: 0px;
+    }
+
+    .certificates .imagen {
+        width: 90%;        
+    }
+    .certificates .imagen img {
+        width: 100%;
+    }
+
+    .certificates .information {
+        width: 90%;
+    }
+}
+
+
+@media(max-width:620px){
+    .title h3 {
+        width: max-content;
+        font-size: 35px;    
+    }
+    .title {
+        width: max-content;
+    }
+}
+
+@media(max-width: 600px ){
+    .certificates .information {
+        padding-top: 5%;
+    }
+
+    .certificates .information {
+        font-size: 17px;
+    }
+    .certificates .information pre {
+        font-size: 16px;
+    }
+
+
+}
+
+@media(max-width: 350px) {
+    .title{
+        padding-top: 20px;
+    }
 }
