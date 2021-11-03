@@ -18,9 +18,12 @@
 }
 
 .techs .title-main,.techs .title-other {
-    width: 300px;
+    width: max-content;
     margin: 0px auto;
     margin-top: 40px;
+}
+.techs .title-main h3 {
+    width: max-content !important;
 }
 .techs .title-main h3, .techs .title-other h3 {
     width: 300px;
@@ -100,7 +103,8 @@
 .techs .main-techs .tech .c,.techs .mean-techs .tech .express,
 .techs .main-techs .tech .java,.techs .main-techs .tech .rxjs, 
 .techs .main-techs .tech .linux, .techs .mean-techs .tech .node,
-.techs .main-techs .tech .git {
+.techs .main-techs .tech .git,.techs .main-techs .tech .mysql,
+.techs .main-techs .tech .docker {
     display: block;
     width: 65%;
     height: 65%;
@@ -109,7 +113,6 @@
     margin-bottom: 60px;
     border-radius: 12px;
 }
-
 
 .techs .main-techs .tech:hover {
     background-color: #000;
@@ -169,6 +172,12 @@
 .techs .main-techs .git-tech p {
     color: #DE4C36;
 }
+.techs .main-techs .mysql-tech p {
+    color: #006d91;
+}
+.techs .main-techs .docker-tech p {
+    color: #2496ed;
+}
 
 
 .techs .main-techs .html-tech:hover p {
@@ -177,6 +186,7 @@
 .techs .main-techs .css-tech:hover p {
     margin-top: -180px;
 }
+
 .techs .main-techs .js-tech:hover p,
 .techs .main-techs .ts-tech:hover p,
 .techs .mean-techs .angular-tech:hover p,
@@ -187,7 +197,9 @@
 .techs .main-techs .java-tech:hover p,
 .techs .main-techs .rxjs-tech:hover p,
 .techs .main-techs .linux-tech:hover p,
-.techs .main-techs .git-tech:hover p
+.techs .main-techs .git-tech:hover p,
+.techs .main-techs .mysql-tech:hover p,
+.techs .main-techs .docker-tech:hover p
 {
     margin-top: -155px;
 }
@@ -236,5 +248,11 @@
 }
 .techs .main-techs .git-tech:hover {
     border: 2px solid #DE4C36;
+}
+.techs .main-techs .mysql-tech:hover {
+    border: 2px solid #006d91;
+}
+.techs .main-techs .docker-tech:hover {
+    border: 2px solid #2496ed;
 }
 
