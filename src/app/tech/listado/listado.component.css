@@ -48,10 +48,7 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-.techs .mean-techs {
-    width: 1500px;
-    justify-content: space-evenly;
-}
+
 .techs .main-techs .tech,.techs .mean-techs .tech {
     font-family: var(--font-family);
     font-weight: bold;
@@ -114,7 +111,7 @@
     border-radius: 12px;
 }
 
-.techs .main-techs .tech:hover {
+.techs .main-techs .tech:hover, .techs .mean-techs .tech:hover {
     background-color: #000;
 
 }
@@ -256,3 +253,123 @@
     border: 2px solid #2496ed;
 }
 
+/* Responsive */
+
+@media(max-width: 1024px) {
+    .techs .main-techs .tech img, .techs .mean-techs .tech img {
+        opacity: 0.2;
+        transform: scale(1.14,1.14);
+    }
+    
+    .techs .main-techs .html-tech p {
+        margin-top: -170px;
+    }
+    .techs .main-techs .css-tech p {
+        margin-top: -180px;
+    }
+    
+    .techs .main-techs .js-tech p,
+    .techs .main-techs .ts-tech p,
+    .techs .mean-techs .angular-tech p,
+    .techs .mean-techs .mongo-tech p,
+    .techs .mean-techs .node-tech p,
+    .techs .mean-techs .express-tech p,
+    .techs .main-techs .c-tech p,
+    .techs .main-techs .java-tech p,
+    .techs .main-techs .rxjs-tech p,
+    .techs .main-techs .linux-tech p,
+    .techs .main-techs .git-tech p,
+    .techs .main-techs .mysql-tech p,
+    .techs .main-techs .docker-tech p
+    {
+        margin-top: -155px;
+    }
+    .techs .main-techs .sass-tech p {
+        margin-top: -140px;
+    }
+    
+    .techs .main-techs .html-tech {
+        border: 2px solid #e44d26;
+    }
+    .techs .main-techs .css-tech {
+        border: 2px solid #1c579b;
+    }
+    .techs .main-techs .js-tech {
+        border: 2px solid #f0da50;
+    }
+    .techs .main-techs .sass-tech {
+        border: 2px solid #cd6799;
+    }
+    .techs .main-techs .ts-tech {
+        border: 2px solid #3178c6;
+    }
+    .techs .mean-techs .angular-tech {
+        border: 2px solid #c3002f;
+    }
+    .techs .mean-techs .mongo-tech {
+        border: 2px solid #429A46;
+    }
+    .techs .mean-techs .express-tech {
+        border: 2px solid #EF9800;
+    }
+    .techs .mean-techs .node-tech {
+        border: 2px solid #8CC84B;
+    }
+    .techs .main-techs .c-tech {
+        border: 2px solid #007fcc;
+    }
+    .techs .main-techs .java-tech {
+        border: 2px solid #f2593a;
+    }
+    .techs .main-techs .rxjs-tech {
+        border: 2px solid #df1d85;
+    }
+    .techs .main-techs .linux-tech {
+        border: 2px solid #E69629;
+    }
+    .techs .main-techs .git-tech {
+        border: 2px solid #DE4C36;
+    }
+    .techs .main-techs .mysql-tech {
+        border: 2px solid #006d91;
+    }
+    .techs .main-techs .docker-tech {
+        border: 2px solid #2496ed;
+    }
+    .techs .main-techs .tech, .techs .mean-techs .tech {
+        background-color: #000;
+    
+    }
+}
+
+@media(max-width: 800px) {
+    .techs .title {
+        margin-top: 80px;
+        width: max-content;
+    }
+    .techs .title h3 {
+        width: max-content;
+        font-size: 40px;
+    }
+}
+
+@media(max-width: 550px) {
+    .techs .title {
+        margin-top: 0px;
+    }
+    .techs .title h3 {
+       font-size: 27px;
+    }
+    .techs .title-main h3 {
+       font-size: 24px;
+    }    
+    .techs .title-other h3 {
+        font-size: 24px;
+    } 
+}
+
+@media(max-width: 440px) {
+    .techs .title {
+        margin-top: 100px;
+    }
+}
