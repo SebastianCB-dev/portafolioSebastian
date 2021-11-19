@@ -97,4 +97,28 @@
     </ng-template>
   </p-card>
 
+  <p-card header="ToDo" subheader="Aplicación Tareas" [style]="{width: '360px'}" styleClass="p-card-shadow">
+    <ng-template pTemplate="header">
+      <img alt="Card" src="../../../../assets/imgs/Imagenes-proyectos/ToDo.png" class="principal">
+    </ng-template>
+    <p>Aplicación para recordar tareas y hacer conteo de mercado.</p>
+    <div class="languages">
+      <h3>Lenguajes: </h3>
+      <div class="icons">
+        <img src="../../../../assets/imgs/Logos-Mini/html.png">
+        <img src="../../../../assets/imgs/Logos-Mini/css.png">
+        <img src="../../../../assets/imgs/Logos-Mini/sass.png">
+        <img src="../../../../assets/imgs/Logos-Mini/typescript.png">
+        <img src="../../../../assets/imgs/Logos-Mini/angular.png">
+      </div>
+    </div>
+    <ng-template pTemplate="footer">
+      <p-button label="Demo" icon="pi pi-eye" iconPos="right"
+        (click)="redireccionar('https://todosebastiancb.netlify.app/')"></p-button>
+      <p-button label="Repositorio" icon="pi pi-github" iconPos="right" styleClass="p-button-secondary"
+        [style]="{'margin-left': '.5em'}"
+        (click)="redireccionar('https://github.com/SebastianCB-dev/ToDo_Angular')"></p-button>
+    </ng-template>
+  </p-card>
+
 </div>

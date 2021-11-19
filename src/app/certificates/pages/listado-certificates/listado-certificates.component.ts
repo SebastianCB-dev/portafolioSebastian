@@ -57,6 +57,11 @@ export class ListadoCertificatesComponent implements OnInit {
       srcImage: 'CompetenciasDigitales',
       title: 'Competencias Digitales',
       iconClass: 'pi pi-google'
+    },
+    {
+      router: 'ComercioElectronicoMercadoLibre',
+      srcImage: 'ComercioElectronicoMercadoLibre',
+      title: 'Comercio Electronico'
     }
   
   ]
