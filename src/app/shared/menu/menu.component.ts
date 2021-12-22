@@ -26,17 +26,17 @@ export class MenuComponent implements OnInit {
     
      this.items = [
       {
-        label: "Inicio",
+        label: "Home",
         icon: 'pi pi-home',
         routerLink: '/'
       },
       {
-        label: 'Certificados',
+        label: 'Certificates',
         icon: 'pi pi-user',
         routerLink: 'certificates'      
       },
       {
-        label: 'Tecnologías',
+        label: 'Knowledge',
         icon: 'pi pi-desktop',
         routerLink: 'tecnologias'
       },
@@ -46,12 +46,12 @@ export class MenuComponent implements OnInit {
         routerLink: 'github'
       },
       {
-        label: 'Proyectos',
+        label: 'Projects',
         icon: 'pi pi-folder',
         routerLink: 'proyectos'
       },
       {
-        label: 'Contacto',
+        label: 'Contact',
         icon: 'pi pi-mobile',
         routerLink: 'contacto'
       }

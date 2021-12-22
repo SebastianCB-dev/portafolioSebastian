@@ -8,7 +8,9 @@ import { CertificadoItem } from '../../interfaces/certificado.interface';
 })
 export class ListadoCertificatesComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+    
+  }
 
   menuItem: CertificadoItem[] = [
     {
