@@ -1,10 +1,10 @@
 .techs .title {
-    width: 560px;
+    width: max-content;
     margin: 0px auto;
     margin-top: 110px;
 }
 .techs .title h3 {
-    width: 560px;
+    width: max-content;
     font-size: 47px;
     border-bottom: 2px solid #ccc;
     padding-bottom: 5px;
@@ -101,7 +101,7 @@
 .techs .main-techs .tech .java,.techs .main-techs .tech .rxjs, 
 .techs .main-techs .tech .linux, .techs .mean-techs .tech .node,
 .techs .main-techs .tech .git,.techs .main-techs .tech .mysql,
-.techs .main-techs .tech .docker {
+.techs .main-techs .tech .docker, .techs .main-techs .angular-tech .angular {
     display: block;
     width: 65%;
     height: 65%;
@@ -143,6 +143,9 @@
     color: #3178c6;
 }
 .techs .mean-techs .angular-tech p {
+    color:rgb(255, 0, 0);
+}
+.techs .main-techs .angular-tech p {
     color:rgb(255, 0, 0);
 }
 .techs .mean-techs .mongo-tech p {
@@ -196,7 +199,8 @@
 .techs .main-techs .linux-tech:hover p,
 .techs .main-techs .git-tech:hover p,
 .techs .main-techs .mysql-tech:hover p,
-.techs .main-techs .docker-tech:hover p
+.techs .main-techs .docker-tech:hover p,
+.techs .main-techs .angular-tech:hover p
 {
     margin-top: -155px;
 }
@@ -220,6 +224,9 @@
     border: 2px solid #3178c6;
 }
 .techs .mean-techs .angular-tech:hover {
+    border: 2px solid #c3002f;
+}
+.techs .main-techs .angular-tech:hover {
     border: 2px solid #c3002f;
 }
 .techs .mean-techs .mongo-tech:hover {
@@ -255,12 +262,15 @@
 
 /* Responsive */
 
-@media(max-width: 1024px) {
+@media(max-width: 1023px) {
     .techs .main-techs .tech img, .techs .mean-techs .tech img {
         opacity: 0.2;
         transform: scale(1.14,1.14);
     }
-    
+    .techs .title h3 {
+        color: var(--primary-color);
+        border-bottom: 2px solid var(--primary-color);
+    }
     .techs .main-techs .html-tech p {
         margin-top: -170px;
     }
@@ -271,6 +281,7 @@
     .techs .main-techs .js-tech p,
     .techs .main-techs .ts-tech p,
     .techs .mean-techs .angular-tech p,
+    .techs .main-techs .angular-tech p,
     .techs .mean-techs .mongo-tech p,
     .techs .mean-techs .node-tech p,
     .techs .mean-techs .express-tech p,
@@ -304,6 +315,9 @@
         border: 2px solid #3178c6;
     }
     .techs .mean-techs .angular-tech {
+        border: 2px solid #c3002f;
+    }
+    .techs .main-techs .angular-tech {
         border: 2px solid #c3002f;
     }
     .techs .mean-techs .mongo-tech {
@@ -356,9 +370,6 @@
 @media(max-width: 550px) {
     .techs .title {
         margin-top: 0px;
-    }
-    .techs .title h3 {
-       font-size: 27px;
     }
     .techs .title-main h3 {
        font-size: 24px;

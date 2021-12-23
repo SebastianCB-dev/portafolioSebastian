@@ -47,7 +47,7 @@ export class ListadoCertificatesComponent implements OnInit {
     {
       router: 'GitHub',
       srcImage: 'GitHub',
-      title: 'GitHub',
+      title: 'Git-Hub',
     },
     {
       router: 'LinuxI',
@@ -57,13 +57,13 @@ export class ListadoCertificatesComponent implements OnInit {
     {
       router: 'CompetenciasDigitales',
       srcImage: 'CompetenciasDigitales',
-      title: 'Competencias Digitales',
+      title: 'Digital literacy',
       iconClass: 'pi pi-google'
     },
     {
       router: 'ComercioElectronicoMercadoLibre',
       srcImage: 'ComercioElectronicoMercadoLibre',
-      title: 'Comercio Electronico'
+      title: 'e-Commerce'
     }
   
   ]

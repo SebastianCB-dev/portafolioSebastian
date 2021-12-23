@@ -100,6 +100,13 @@
   }
 }
 
+@media(max-width: 1023px) {
+  .title h3 {
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+  }
+}
+
 @media(max-width: 880px){
     .certificates .information pre {
        width: 80%;
