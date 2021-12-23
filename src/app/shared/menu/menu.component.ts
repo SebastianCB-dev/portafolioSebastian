@@ -69,16 +69,16 @@ export class MenuComponent implements OnInit {
       case 'certificates':
         this.position = 1;
         break;
-      case 'tecnologias':
+      case 'knowledge':
         this.position = 2;
         break;
       case 'github':
         this.position = 3;
         break;
-      case 'proyectos':
+      case 'projects':
           this.position = 4;
           break;
-      case 'contacto':
+      case 'contact':
         this.position = 5;
         break;
       default: 
