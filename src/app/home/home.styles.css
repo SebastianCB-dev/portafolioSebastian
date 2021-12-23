@@ -248,11 +248,12 @@
 }
 
 .work .cards .cardOne:hover {
-    border: 2px solid var(--primary-color);
+    border: 2px solid #DE2A0D;
+   
 }
 
 .work .cards .cardOne:hover h5 {
-    color: var(--primary-color);
+    color: #DE2A0D;
 }
 
 .work .cards .cardTwo:hover {
@@ -264,11 +265,12 @@
 }
 
 .work .cards .cardThree:hover {
-    border: 2px solid #DE2A0D;
+    border: 2px solid var(--primary-color);
 }
 
 .work .cards .cardThree:hover h5 {
-    color: #DE2A0D;
+    
+    color: var(--primary-color);
 }
 /* Fin Work */
 
@@ -296,6 +298,66 @@
     .about-me .cards .card:first-child {
         margin-top: -20px;
     }
+}
+
+/* Hover turn on forever */
+@media(max-width: 1023px) {
+    .main img {
+        border: 3px solid var(--primary-color);
+        transform: scale(1.01,1.01);
+    }
+
+    .about-me h3 {
+        color: var(--primary-color);
+        border-bottom: 2px solid var(--primary-color);
+    }
+    .about-me .cards .card {
+        border: 2px solid var(--primary-color);
+        box-shadow: 0px 0px 25px #000;
+        background-color: rgba(0, 0, 0, 0.457);
+    }
+    .about-me .cards .information h5 {
+        color: var(--primary-color);
+        text-decoration: underline;
+    }
+    .about-me .cards .information span {
+        color: var(--primary-color);
+        text-decoration: underline;
+    }
+    .about-me .cards .description h5 {
+        color: var(--primary-color);
+    }
+    .work h3 {
+        color: var(--primary-color);
+        border-bottom: 2px solid var(--primary-color);
+    }
+
+    .work .cards .cardOne {
+        border: 2px solid #DE2A0D;
+        /* border: 2px solid var(--primary-color); */
+    }
+    
+    .work .cards .cardOne h5 {
+        color: #DE2A0D;
+    }
+    
+    .work .cards .cardTwo {
+        border: 2px solid #076CF2;
+    }
+    
+    .work .cards .cardTwo h5 {
+        color: #076CF2;
+    }
+    
+    .work .cards .cardThree {
+        border: 2px solid var(--primary-color);
+        
+    }
+    
+    .work .cards .cardThree h5 {
+        color: var(--primary-color);
+    }
+
 }
 
 @media(max-width: 800px) {
@@ -388,13 +450,11 @@
         font-size: 40px;
     }
     .work .title {
-        width: max-content;
-        margin: 0px auto;
+        width: 90%;
+        margin: 0px auto;        
     }
     .work .title h3 {
-        width: max-content;
-        margin: 0px auto;
-        font-size: 25px;
+        width: 90%;                    
     }
     .work .cards .card {
         width: 90%;
@@ -428,14 +488,6 @@
     }
 }
 
-@media(max-width: 413px){
-    .work .title {
-       width: max-content;
-    }
-    .work .title h3 {
-        width: max-content;
-    }
-}
 
 @media(max-width: 393px) {
     .work .title {
