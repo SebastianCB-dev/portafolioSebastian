@@ -1,13 +1,16 @@
 .title {
-    width: 330px;
+    width: max-content;
     margin: 0px auto;
     margin-top: 110px;
+}
+.p-card-project {
+    width: 360px;
 }
 .rounded {
     border-radius: 100%;
 }
 .title h3 {
-    width: 330px;
+    width: max-content;
     font-size: 47px;
     border-bottom: 2px solid #ccc;
     padding-bottom: 5px;
@@ -54,6 +57,71 @@
     display: block;
     width: 40px;
 }
+.cards p-card .imagen-todo {
+    margin-bottom: 32px;
+}
+.cards p-card .imagen-pokemon {
+    margin-bottom: 19px;
+}
 .cards .principal {
     max-height: 190px;
+}
+
+/* Responsive */
+
+@media(max-width: 1482px) {
+    .cards p-card .imagen-peace {
+        margin-bottom: 18px;
+    }
+}
+
+@media(max-width: 1023px) {
+    .title h3 {
+        color: var(--primary-color);
+        border-bottom: 2px solid var(--primary-color);
+    }
+    .cards p-card {
+        box-shadow: 0px 0px 10px #ccc;
+    }
+
+}
+
+@media(max-width: 800px) {
+    .title {
+        margin-top: 0px;
+    }
+}
+
+@media(max-width: 520px) {
+    .title h3 {
+        font-size: 37px;
+    }
+
+    .cards p-card {
+        width: 90%;
+        margin: 0px auto;
+        margin-bottom: 40px;
+    }
+
+    .p-card-project {
+        width: 90%;
+    }                    
+
+}
+
+@media(max-width: 360px) {
+    .cards p-card .button {
+        display: block;
+        width: max-content;
+        margin: 0px auto;
+        margin-bottom: 20px;
+    }
+
+    .cards p-card p {
+        text-align: center;
+    }
+    .title {
+        margin-top: 60px;
+    }
+
 }

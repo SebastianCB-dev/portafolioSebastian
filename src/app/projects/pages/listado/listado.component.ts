@@ -16,4 +16,13 @@ export class ListadoComponent implements OnInit {
     window.open( url , '_blank')
   }
 
+  responsiveCard(): string {
+    if(screen.width <= 520) {
+      return "width: 90% !important";
+    }
+    else {
+      return "width: 360px !important";
+    }
+  }
+
 }

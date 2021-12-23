@@ -1,15 +1,15 @@
 <div class="title color-layout">
-  <h3>Mis proyectos</h3>
+  <h3>My projects</h3>
 </div>
 <div class="cards">
 
-  <p-card header="League of Legends" subheader="Champion Picker" [style]="{width: '360px'}" styleClass="p-card-shadow">
+  <p-card header="League of Legends" subheader="Champion Picker" class="p-card-project" styleClass="p-card-shadow">
     <ng-template pTemplate="header">
       <img alt="Card" src="../../../../assets/imgs/Imagenes-proyectos/LeagueOfLegends.jpg" class="principal">
     </ng-template>
-    <p>Simulador de la selección de campeon en el videojuego League of Legends.</p>
+    <p>Simulator about the champion picker on the videogame League of Legends.</p>    
     <div class="languages">
-      <h3>Lenguajes: </h3>
+      <h3>Technologies: </h3>
       <div class="icons">
         <img src="../../../../assets/imgs/Logos-Mini/html.png">
         <img src="../../../../assets/imgs/Logos-Mini/css.png">
@@ -17,23 +17,23 @@
         <img src="../../../../assets/imgs/Logos-Mini/js.png" class="rounded">
       </div>
     </div>
-    <ng-template pTemplate="footer">
+    <ng-template pTemplate="footer" class="buttons">
       <p-button label="Demo" icon="pi pi-eye" iconPos="right"
-        (click)="redireccionar('https://angry-leavitt-1f14de.netlify.app')"></p-button>
-      <p-button label="Repositorio" icon="pi pi-github" iconPos="right" styleClass="p-button-secondary"
+        (click)="redireccionar('https://angry-leavitt-1f14de.netlify.app')" class="button"></p-button>
+      <p-button label="Repository" icon="pi pi-github" iconPos="right" styleClass="p-button-secondary"
         [style]="{'margin-left': '.5em'}"
-        (click)="redireccionar('https://github.com/SebastianCB-dev/LeagueOfLegendsSimulatorP')"></p-button>
+        (click)="redireccionar('https://github.com/SebastianCB-dev/LeagueOfLegendsSimulatorP')" class="button"></p-button>
     </ng-template>
   </p-card>
 
-  <p-card header="Fundación de Levi" subheader="Fundación sin animo de lucro" [style]="{width: '360px'}"
+  <p-card header="Fundación de Levi" subheader="Fundación sin animo de lucro" class="p-card-project"
     styleClass="p-card-shadow">
     <ng-template pTemplate="header">
       <img alt="Card" src="../../../../assets/imgs/Imagenes-proyectos/FundacionDeLevi.jpeg" class="principal">
     </ng-template>
-    <p>Desarrollo de la pagina web de la fundación de Levi.</p>
+    <p>Development of Fundacion de Levi's page with JavaScript vanilla.</p>    
     <div class="languages">
-      <h3>Lenguajes: </h3>
+      <h3>Technologies: </h3>
       <div class="icons">
         <img src="../../../../assets/imgs/Logos-Mini/html.png">
         <img src="../../../../assets/imgs/Logos-Mini/css.png">
@@ -41,21 +41,21 @@
         <img src="../../../../assets/imgs/Logos-Mini/js.png" class="rounded">
       </div>
     </div>
-    <ng-template pTemplate="footer">
+    <ng-template pTemplate="footer" class="buttons">
       <p-button label="Demo" icon="pi pi-eye" iconPos="right"
-        (click)="redireccionar('https://www.fundaciondelevi.com')"></p-button>
+        (click)="redireccionar('https://www.fundaciondelevi.com')" class="button"></p-button>
 
     </ng-template>
   </p-card>
 
 
-  <p-card header="Tulpa de la paz" subheader="Semana de la paz" [style]="{width: '360px'}" styleClass="p-card-shadow">
+  <p-card header="Tulpa de la paz" subheader="Peace week" class="p-card-project" styleClass="p-card-shadow">
     <ng-template pTemplate="header">
-      <img alt="Card" src="../../../../assets/imgs/pazProject.jpg" class="principal">
+      <img alt="Card" src="../../../../assets/imgs/pazProject.jpg" class="principal imagen-peace">
     </ng-template>
-    <p>Desarrollo de una ruleta para la semana de la paz.</p>
+    <p>Development of a wheel for the peace week with JavaScript vanilla.</p>    
     <div class="languages">
-      <h3>Lenguajes: </h3>
+      <h3>Technologies: </h3>
       <div class="icons">
         <img src="../../../../assets/imgs/Logos-Mini/html.png">
         <img src="../../../../assets/imgs/Logos-Mini/css.png">
@@ -63,23 +63,23 @@
         <img src="../../../../assets/imgs/Logos-Mini/js.png" class="rounded">
       </div>
     </div>
-    <ng-template pTemplate="footer">
+    <ng-template pTemplate="footer" class="buttons">
       <p-button label="Demo" icon="pi pi-eye" iconPos="right"
-        (click)="redireccionar('https://tulpadelapaz.netlify.app/')"></p-button>
-      <p-button label="Repositorio" icon="pi pi-github" iconPos="right" styleClass="p-button-secondary"
+        (click)="redireccionar('https://tulpadelapaz.netlify.app/')" class="button"></p-button>
+      <p-button label="Repository" icon="pi pi-github" iconPos="right" styleClass="p-button-secondary"
         [style]="{'margin-left': '.5em'}"
-        (click)="redireccionar('https://github.com/SebastianCB-dev/tulpadelapaz')"></p-button>
+        (click)="redireccionar('https://github.com/SebastianCB-dev/tulpadelapaz')" class="button"></p-button>
     </ng-template>
   </p-card>
 
 
-  <p-card header="PokemonApp" subheader="Aplicación de Pokemon" [style]="{width: '360px'}" styleClass="p-card-shadow">
+  <p-card header="PokemonApp" subheader="Pokemon Application" class="p-card-project" styleClass="p-card-shadow">
     <ng-template pTemplate="header">
-      <img alt="Card" src="../../../../assets/imgs/Imagenes-proyectos/pokemon.jpg" class="principal">
+      <img alt="Card" src="../../../../assets/imgs/Imagenes-proyectos/pokemon.jpg" class="principal imagen-pokemon">
     </ng-template>
-    <p>Información de pokemones usando la API de PokeAPI.</p>
+    <p>Information about the pokemons using the API from PokeAPI.</p>    
     <div class="languages">
-      <h3>Lenguajes: </h3>
+      <h3>Technologies: </h3>
       <div class="icons">
         <img src="../../../../assets/imgs/Logos-Mini/html.png">
         <img src="../../../../assets/imgs/Logos-Mini/css.png">
@@ -88,22 +88,22 @@
         <img src="../../../../assets/imgs/Logos-Mini/angular.png">
       </div>
     </div>
-    <ng-template pTemplate="footer">
+    <ng-template pTemplate="footer" class="buttons">
       <p-button label="Demo" icon="pi pi-eye" iconPos="right"
-        (click)="redireccionar('https://pokemonappjscb.netlify.app')"></p-button>
-      <p-button label="Repositorio" icon="pi pi-github" iconPos="right" styleClass="p-button-secondary"
+        (click)="redireccionar('https://pokemonappjscb.netlify.app')" class="button"></p-button>
+      <p-button label="Repository" icon="pi pi-github" iconPos="right" styleClass="p-button-secondary"
         [style]="{'margin-left': '.5em'}"
-        (click)="redireccionar('https://github.com/SebastianCB-dev/pokemonapp')"></p-button>
+        (click)="redireccionar('https://github.com/SebastianCB-dev/pokemonapp')" class="button" ></p-button>
     </ng-template>
   </p-card>
 
-  <p-card header="ToDo" subheader="Aplicación Tareas" [style]="{width: '360px'}" styleClass="p-card-shadow">
+  <p-card header="ToDo" subheader="Aplicación Tareas" class="p-card-project" styleClass="p-card-shadow">
     <ng-template pTemplate="header">
-      <img alt="Card" src="../../../../assets/imgs/Imagenes-proyectos/ToDo.png" class="principal">
-    </ng-template>
-    <p>Aplicación para recordar tareas y hacer conteo de mercado.</p>
+      <img alt="Card" src="../../../../assets/imgs/Imagenes-proyectos/ToDo.png" class="principal imagen-todo">
+    </ng-template>    
+    <p>Application to create tasks and remember your groseries.</p>
     <div class="languages">
-      <h3>Lenguajes: </h3>
+      <h3>Technologies: </h3>
       <div class="icons">
         <img src="../../../../assets/imgs/Logos-Mini/html.png">
         <img src="../../../../assets/imgs/Logos-Mini/css.png">
@@ -112,11 +112,11 @@
         <img src="../../../../assets/imgs/Logos-Mini/angular.png">
       </div>
     </div>
-    <ng-template pTemplate="footer">
+    <ng-template pTemplate="footer" class="buttons">
       <p-button label="Demo" icon="pi pi-eye" iconPos="right"
-        (click)="redireccionar('https://todosebastiancb.netlify.app/')"></p-button>
-      <p-button label="Repositorio" icon="pi pi-github" iconPos="right" styleClass="p-button-secondary"
-        [style]="{'margin-left': '.5em'}"
+        (click)="redireccionar('https://todosebastiancb.netlify.app/')" class="button"></p-button>
+      <p-button label="Repository" icon="pi pi-github" iconPos="right" styleClass="p-button-secondary"
+        [style]="{'margin-left': '.5em'}" class="button"
         (click)="redireccionar('https://github.com/SebastianCB-dev/ToDo_Angular')"></p-button>
     </ng-template>
   </p-card>
