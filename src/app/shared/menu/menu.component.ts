@@ -38,7 +38,7 @@ export class MenuComponent implements OnInit {
       {
         label: 'Knowledge',
         icon: 'pi pi-desktop',
-        routerLink: 'tecnologias'
+        routerLink: 'knowledge'
       },
       {
         label: 'Git-Hub',
@@ -48,12 +48,12 @@ export class MenuComponent implements OnInit {
       {
         label: 'Projects',
         icon: 'pi pi-folder',
-        routerLink: 'proyectos'
+        routerLink: 'projects'
       },
       {
         label: 'Contact',
         icon: 'pi pi-mobile',
-        routerLink: 'contacto'
+        routerLink: 'contact'
       }
   
     ];

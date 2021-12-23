@@ -14,7 +14,7 @@ const routes: Routes = [
     loadChildren: () => import('./certificates/certificates.module').then( m => m.CertificatesModule )
   },
   {
-    path: 'tecnologias',
+    path: 'knowledge',
     loadChildren: () => import('./tech/tech.module').then( m => m.TechModule )
   },
   {
@@ -22,11 +22,11 @@ const routes: Routes = [
     loadChildren: () => import('./github/github.module').then( m => m.GithubModule )
   },
   {
-    path: 'proyectos',
+    path: 'projects',
     loadChildren: () => import('./projects/projects.module').then( m => m.ProjectsModule )
   },
   {
-    path: 'contacto',
+    path: 'contact',
     loadChildren: () => import('./contact/contact.module').then( m => m.ContactModule )
   },
   {
