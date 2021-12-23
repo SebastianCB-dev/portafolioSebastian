@@ -1,5 +1,5 @@
 .title {
-    width: 300px;
+    width: max-content;
     margin: 0px auto;
     margin-top: 70px;
     display: flex;
@@ -15,7 +15,8 @@
 .title i {
     font-size: 40px;
     position: relative;
-    top: 50px;
+    top: 54px;
+    left: -15px;
     height: 54px;
     transition: all 300ms;
 }
@@ -43,6 +44,14 @@
     border: 2px solid transparent;
     overflow: hidden;
     cursor: pointer;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 35px;
+    transition: all 300ms;
+    -webkit-transition: all 300ms;
+    -moz-transition: all 300ms;
+    -ms-transition: all 300ms;
+    -o-transition: all 300ms;
 }
 
 .message {
@@ -52,27 +61,89 @@
     right: 35%;
     top: 170px;
 }
+
+
 .contacts .linkedin:hover {
     border: 2px solid #0077B7;
+    box-shadow: 0px 0px 50px #0077B7;
 }
 
 .contacts .gmail:hover {
     border: 2px solid #D32E2A;
+    box-shadow: 0px 0px 50px #D32E2A;
 }
 .contacts .llamada:hover {
     border: 2px solid #1BD9DE;
+    box-shadow: 0px 0px 50px #1BD9DE;
 }
 .contacts .twitter:hover {
     border: 2px solid #03A9F4;
+    box-shadow: 0px 0px 50px #03A9F4;
 }
 
 .contacts .github:hover {
     border: 2px solid #5C6BC0;
+    box-shadow: 0px 0px 50px #5C6BC0;
 }
+
+.contacts .discord:hover {
+    border: 2px solid #5C6BBF;
+    box-shadow: 0px 0px 50px #5C6BBF;
+}
+
 
 .contacts .contact img {
     display: block;
     width: 100px;
     margin: 0px auto;
     margin-top: 50px;
+}
+
+/* Responsive */
+
+@media(max-width: 1023px) {
+    .contacts .linkedin {
+        border: 2px solid #0077B7;
+        box-shadow: 0px 0px 50px #0077B7;
+    }
+    
+    .contacts .gmail {
+        border: 2px solid #D32E2A;
+        box-shadow: 0px 0px 50px #D32E2A;
+    }
+    .contacts .llamada {
+        border: 2px solid #1BD9DE;
+        box-shadow: 0px 0px 50px #1BD9DE;
+    }
+    .contacts .twitter {
+        border: 2px solid #03A9F4;
+        box-shadow: 0px 0px 50px #03A9F4;
+    }
+    
+    .contacts .github {
+        border: 2px solid #5C6BC0;
+        box-shadow: 0px 0px 50px #5C6BC0;
+    }
+    
+    .contacts .discord {
+        border: 2px solid #5C6BBF;
+        box-shadow: 0px 0px 50px #5C6BBF;
+    }
+
+    .title h3  {
+        color: var(--primary-color);
+    }
+    .title i {
+        color: var(--primary-color);
+    }
+
+    .contacts {
+        margin-top: 50px;
+    }
+}
+
+@media(max-width: 800px) {
+    .title {
+        margin-top: 0px;
+    }
 }

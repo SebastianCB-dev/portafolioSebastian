@@ -30,7 +30,7 @@ export class ContactComponent implements OnInit {
   copyGmail() {
    this.show = false;
    navigator.clipboard.writeText('sebastianulldeveloper@gmail.com');
-   this.texto = 'Se ha añadido el correo a tu portapapeles.';
+   this.texto = 'The email has already been added to your clipboard.';
    this.show = true;
    setTimeout(()=> {
     this.show = false;
@@ -41,7 +41,18 @@ export class ContactComponent implements OnInit {
   copyTel() {
     this.show = false;
     navigator.clipboard.writeText('+57 3124866123');
-    this.texto = 'Se ha añadido el telefono a tu portapapeles.';
+    this.texto = 'The phone number has already been added to your clipboard.';
+    this.show = true;
+    setTimeout(()=> {
+     this.show = false;
+    },2000)
+ 
+   }
+
+   copyDisc() {
+    this.show = false;
+    navigator.clipboard.writeText('~Sebastian Carrillo#6083');
+    this.texto = 'The Discord username has already been added to your clipboard.';
     this.show = true;
     setTimeout(()=> {
      this.show = false;
