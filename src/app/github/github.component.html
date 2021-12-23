@@ -6,7 +6,7 @@
      *ngIf="!profile">
     <p-messages severity="warn">
         <ng-template pTemplate>
-            <div class="p-ml-2">Trayendo la información de GitHub, por favor espere...</div>
+            <div class="p-ml-2">Getting the information from Git-Hub, please wait...</div>
         </ng-template>
     </p-messages>
 </div>
@@ -21,17 +21,17 @@
     <div class="repos animate__animated animate__backInRight animate__delay-3s">
         <div *ngFor="let repositorio of repositorios; let i = index"
              class="repo">
-            <p-fieldset [legend]="repositorio.name" [toggleable]="true">
-                <p>Nombre:</p> 
+            <p-fieldset [legend]="repositorio.name" [toggleable]="true" [collapsed]="i > 11">
+                <p>Name:</p> 
                 <pre>{{ repositorio.full_name }}</pre>
-                <h4>Lenguajes: </h4>
+                <h4>Technologies: </h4>
                 <ul>
                     <li *ngFor="let lenguaje of lenguajes[i] | keyvalue">{{ lenguaje.key }}</li>                    
                 </ul>
                 
                 <a [href]="repositorio.html_url" target="_blank" pButton
                    class="p-button-outlined">
-                    Ver repositorio <i class="pi pi-link"></i>
+                    See repository <i class="pi pi-link"></i>
                 </a>
             </p-fieldset>
         </div>

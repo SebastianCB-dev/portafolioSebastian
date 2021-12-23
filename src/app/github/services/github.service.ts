@@ -3,6 +3,7 @@ import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { ProfileGitHub } from '../interfaces/profile.interface';
 import { RepositoriosGitHub } from '../interfaces/repositorios.interface';
+import { delay } from 'rxjs/operators';
 
 @Injectable({
   providedIn: 'root'
