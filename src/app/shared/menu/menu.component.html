@@ -1,5 +1,5 @@
 <div class="p-grid p-jc-center">
-  <p-tabMenu [model]="items" [activeItem]="items[position]">
+  <p-tabMenu [model]="items" [activeItem]="items[position]" (click)="subirPagina()">
 
   </p-tabMenu>
 </div>
@@ -11,7 +11,8 @@
       <div class="item"
            routerLink=''
            routerLinkActive="active"
-           [routerLinkActiveOptions]="{ exact: true }">
+           [routerLinkActiveOptions]="{ exact: true }"
+           (click)="subirPagina()">
         <i class="pi pi-home"></i>
         <a>
           Home
@@ -20,7 +21,8 @@
 
       <div class="item"
       routerLink='certificates'
-      routerLinkActive="active">
+      routerLinkActive="active"
+      (click)="subirPagina()">
         <i class="pi pi-user"></i>
         <a>
           Certificates
@@ -29,7 +31,8 @@
 
       <div class="item"
       routerLink='knowledge'
-      routerLinkActive="active">
+      routerLinkActive="active"
+      (click)="subirPagina()">
         <i class="pi pi-desktop"></i>
         <a>
           Knowledge
@@ -38,8 +41,10 @@
 
       <div class="item"
       routerLink='github'
-      routerLinkActive="active">
-        <i class="pi pi-github"></i>
+      routerLinkActive="active"
+      (click)="subirPagina()">
+        <i class="pi pi-github"
+        ></i>
         <a>
           Git-Hub
         </a>
@@ -47,7 +52,8 @@
 
       <div class="item"
       routerLink='projects'
-      routerLinkActive="active">
+      routerLinkActive="active"
+      (click)="subirPagina()">
         <i class="pi pi-folder"></i>
         <a>
           Projects
@@ -56,7 +62,8 @@
 
       <div class="item"
       routerLink='contact'
-      routerLinkActive="active">
+      routerLinkActive="active"
+      (click)="subirPagina()">
         <i class="pi pi-mobile"></i>
         <a>
           Contact

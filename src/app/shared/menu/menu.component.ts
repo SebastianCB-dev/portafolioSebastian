@@ -85,6 +85,10 @@ export class MenuComponent implements OnInit {
       this.position = 10;
     }
   }
+
+  subirPagina() {
+    window.scrollTo({top: 0});
+  }
   
 
 }
