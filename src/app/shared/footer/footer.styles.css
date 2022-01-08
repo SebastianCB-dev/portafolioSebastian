@@ -21,6 +21,11 @@
 .footer .boxes .boxOne p, .footer .boxes .boxTwo p {
     text-align: center;
     width: max-content;
+    
+}
+
+.footer .boxes .boxOne p {
+    margin-left: 8px;
 }
 
 
