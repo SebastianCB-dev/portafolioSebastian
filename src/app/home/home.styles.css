@@ -409,6 +409,12 @@
     }
 }
 
+@media(max-width: 600px) {
+   .main {
+       margin-top: 90px;
+       margin-bottom: -20px;
+   }
+}
 @media(max-width: 555px) {
     .about-me .cards .card {
         height: auto;
