@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {  HttpClientModule } from '@angular/common/http';
+import { HttpClientModule } from '@angular/common/http';
  
 import { AppRouterModule } from './app-router.module';
 import { SharedModule } from './shared/shared.module';
@@ -23,7 +23,7 @@ import { HomeComponent } from './home/home.component';
     AppRouterModule,
     SharedModule,
     PrimeNgModule,    
-    HttpClientModule,
+    HttpClientModule,    
   ],
   providers: [],
   bootstrap: [AppComponent]

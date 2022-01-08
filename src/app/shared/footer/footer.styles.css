@@ -20,6 +20,7 @@
 
 .footer .boxes .boxOne p, .footer .boxes .boxTwo p {
     text-align: center;
+    width: max-content;
 }
 
 
@@ -45,5 +46,10 @@
     }
     .footer {
         height: auto;
+    }
+    .footer .boxes .box p {
+        text-align: center;
+        width: max-content;
+        margin: 0px auto;
     }
 }
